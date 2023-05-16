@@ -26,7 +26,7 @@
             <input type="date" id="fecha">
             <br>
             <label for="hora">Hora:</label>
-            <input type="time" id="hora">
+            <input type="time" id="hora" min="09:30" max="20:30" step="1800"> <!-- Se establecen los límites de hora permitidos -->
             <br>
             <button type="submit">Solicitar Cita</button>
         </form>
